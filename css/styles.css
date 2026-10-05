@@ -748,3 +748,16 @@ form select.entrada--invalida {
     transition: none !important;
   }
 }
+
+/* ==== Foco pelo teclado com contraste suficiente (WCAG 2.1) ==== */
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible,
+.botao-primario:focus-visible,
+.menu-toggle:focus-visible ~ .menu-icone,
+.modal-toggle:focus-visible ~ .modal-abrir,
+form input:focus-visible,
+form select:focus-visible {
+  outline: 3px solid var(--cor-texto);
+  outline-offset: 2px;
+}
