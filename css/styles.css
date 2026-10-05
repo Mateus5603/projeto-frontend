@@ -1,15 +1,15 @@
 :root {
   /* Cores primárias (verde do logo) */
-  --cor-primaria: #2E9E4F;
+  --cor-primaria: #1F7F3E;
   --cor-primaria-escura: #1E7A38;
 
   /* Cores secundárias */
-  --cor-secundaria: #D35400;
+  --cor-secundaria: #B34700;
   --cor-destaque: #F9A825;
 
   /* Cores neutras */
   --cor-texto: #1F2933;
-  --cor-texto-suave: #52606D;
+  --cor-texto-suave: #4A5663;
   --cor-borda: #CBD2D9;
   --cor-fundo: #F5F7FA;
   --cor-branco: #FFFFFF;
@@ -760,4 +760,47 @@ form input:focus-visible,
 form select:focus-visible {
   outline: 3px solid var(--cor-texto);
   outline-offset: 2px;
+}
+
+/* ==== Modo escuro: segue a preferência do sistema operacional ==== */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --cor-primaria: #6FCF8A;
+    --cor-primaria-escura: #8FDCA4;
+    --cor-secundaria: #FFA45C;
+    --cor-texto: #E4E7EB;
+    --cor-texto-suave: #B8C2CC;
+    --cor-borda: #4A5663;
+    --cor-fundo: #121A21;
+    --cor-branco: #1E2A35;
+    --cor-erro: #FF8A80;
+    --cor-sucesso-fundo: #16301F;
+    --cor-aviso-fundo: #33290F;
+    --cor-erro-fundo: #3A1A1A;
+  }
+
+  /* O link de atalho tem fundo amarelo nos dois modos: o texto continua escuro */
+  .pular-link {
+    color: #1F2933;
+  }
+}
+
+/* ==== Alto contraste: ativado quando o sistema pede mais contraste ==== */
+@media (prefers-contrast: more) {
+  :root {
+    color-scheme: light;
+    --cor-primaria: #0B5D24;
+    --cor-primaria-escura: #0B5D24;
+    --cor-secundaria: #8A3300;
+    --cor-texto: #000000;
+    --cor-texto-suave: #000000;
+    --cor-borda: #000000;
+    --cor-fundo: #FFFFFF;
+    --cor-branco: #FFFFFF;
+    --cor-erro: #A00000;
+    --cor-sucesso-fundo: #FFFFFF;
+    --cor-aviso-fundo: #FFFFFF;
+    --cor-erro-fundo: #FFFFFF;
+  }
 }
