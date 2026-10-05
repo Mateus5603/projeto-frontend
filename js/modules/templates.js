@@ -109,8 +109,9 @@ export function projetos() {
             <article>
                 <h3>Horários disponíveis</h3>
                 <table border="1">
+                    <caption> Horários das atividades de voluntariado </caption>
                     <thead>
-                        <tr><th>Projeto</th><th>Dia</th><th>Horário</th></tr>
+                    <tr><th scope="col">Projeto</th><th scope="col">Dia</th><th scope="col">Horário</th></tr>
                     </thead>
                     <tbody>
                         ${dados.horarios.map((h) => `
