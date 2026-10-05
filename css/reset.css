@@ -1,0 +1,38 @@
+/* reset.css: mesmo ponto de partida em todos os navegadores.
+   É propositalmente leve para não alterar o visual definido no styles.css. */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+img,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+select,
+textarea {
+    font: inherit;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+/* Garante que o atributo hidden sempre esconda o elemento */
+[hidden] {
+    display: none !important;
+}

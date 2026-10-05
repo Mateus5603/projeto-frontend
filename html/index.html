@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONG Raízes do Amanhã</title>
+    <link rel="icon" href="../imagens/logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <!-- Ponto de entrada da aplicação (módulo ES: abrir com o Live Server) -->
+    <script type="module" src="../js/main.js"></script>
+</head>
+
+<body>
+    <a class="pular-link" href="#app">Pular para o conteúdo</a>
+
+    <!-- Estrutura fixa: não é recarregada ao navegar entre as páginas -->
+    <header>
+        <img src="../imagens/logo.png" alt="Logotipo da ONG Raízes do Amanhã">
+        <h1 id="titulo-pagina">ONG Raízes do Amanhã</h1>
+        <nav aria-label="Navegação principal">
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-icone">☰ Menu</label>
+
+            <ul class="menu">
+                <li>
+                    <a href="#/inicio" data-rota="inicio">Início</a>
+                    <ul class="submenu">
+                        <li><a href="#/inicio/sobre">Quem somos</a></li>
+                        <li><a href="#/inicio/atuacao">Atuação</a></li>
+                        <li><a href="#/inicio/contato">Contato</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#/projetos" data-rota="projetos">Projetos</a>
+                    <ul class="submenu">
+                        <li><a href="#/projetos/voluntariado">Voluntariado</a></li>
+                        <li><a href="#/projetos/doacao">Doações</a></li>
+                        <li><a href="#/projetos/duvidas">Dúvidas</a></li>
+                    </ul>
+                </li>
+                <li><a href="#/cadastro" data-rota="cadastro">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Área dinâmica: o roteador injeta aqui o template de cada página -->
+    <main id="app" tabindex="-1">
+        <noscript>
+            <p>Este site precisa de JavaScript ativado para funcionar.</p>
+        </noscript>
+    </main>
+
+    <footer>
+        <p>Dúvidas? Escreva para <a href="mailto:contato@raizesdoamanha.org.br">contato@raizesdoamanha.org.br</a></p>
+        <p>&copy; 2026 ONG Raízes do Amanhã. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Modal de confirmação reutilizável, aberto e fechado pelo módulo ui.js -->
+    <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-titulo"
+        aria-describedby="modal-texto">
+        <div class="modal__caixa">
+            <h3 id="modal-titulo" class="modal__titulo"></h3>
+            <p id="modal-texto" class="modal__texto"></p>
+            <div class="modal__acoes">
+                <button type="button" class="botao-secundario" data-modal="cancelar">Cancelar</button>
+                <button type="button" class="botao-primario" data-modal="confirmar">Confirmar</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

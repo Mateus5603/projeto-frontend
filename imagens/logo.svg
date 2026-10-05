@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="120" viewBox="0 0 320 120">
+  <rect width="320" height="120" fill="#ffffff"/>
+  <circle cx="60" cy="60" r="42" fill="#e8f5e9"/>
+  <path d="M60 98 L60 58" stroke="#5d4037" stroke-width="6" stroke-linecap="round"/>
+  <path d="M60 70 C40 70 30 56 30 42 C48 42 60 52 60 70 Z" fill="#43a047"/>
+  <path d="M60 58 C60 40 72 28 90 28 C90 46 78 58 60 58 Z" fill="#2e7d32"/>
+  <path d="M42 100 Q60 90 78 100" stroke="#5d4037" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <text x="118" y="54" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="bold" fill="#2e7d32">Raízes</text>
+  <text x="118" y="88" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="bold" fill="#5d4037">do Amanhã</text>
+</svg>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de componentes | ONG Raízes do Amanhã</title>
+    <link rel="icon" href="../imagens/logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="../imagens/logo.png" alt="Logotipo da ONG Raízes do Amanhã">
+        <h1>Guia de componentes</h1>
+    </header>
+    
+    <main>
+
+        <section id="badges">
+            <h2>Badges</h2>
+            <p>Etiquetas para categorizar projetos, campanhas e inscrições</p>
+            <div class="grupo-badges">
+                <span class="badge badge--sucesso">Inscrições abertas</span>
+                <span class="badge badge--aviso">Últimas vagas</span>
+                <span class="badge badge--erro">Encerrado</span>
+                <span class="badge badge--categoria">Educação</span>
+            </div>
+        </section>
+
+        <section id="alertas">
+            <h2>Alertas</h2>
+            <p>Mensagens de retorno após ações do usuário, como enviar um formulário.</p>
+
+            <div class="alerta alerta--sucesso" role="status">
+                <strong class="alerta__titulo"> ✔ Cadastro enviado!</strong>
+                <p class="alerta__texto"> Obrigado por se juntar à Raízes do Amanhã. Entraremos em contato em breve</p>
+            </div>
+
+            <div class="alerta alerta--aviso" role="status">
+                <strong class="alerta__titulo"> ⚠ Atenção</strong>
+                <p class="alerta__texto"> Preencha todos os campos obrigatórios antes de enviar.</p>
+            </div>
+
+            <div class="alerta alerta--erro" role="alert">
+                <strong class="alerta__titulo"> ✖ Não foi possível enviar</strong>
+                <p class="alerta__texto"> Verifique o formato do CPF e tente novamente.</p>
+            </div>
+        </section>
+
+        <section id="modal">
+            <h2>Modal</h2>
+            <p>Janela de confirmação exibida por cima da página.</p>
+            
+            <input type="checkbox" id="modal-toggle" class="modal-toggle">
+            <label for="modal-toggle" class="botao-primario modal-abrir"> Abrir confirmação</label>
+
+            <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-titulo">
+                <div class="modal__caixa">
+                    <h3 id="modal-titulo" class="modal__titulo"> Confirmar inscrição</h3>
+                    <p class="modal__texto"> Deseja se inscrever como voluntário no projeto Reforço escolar?</p>
+                    <div class="modal__acoes">
+                        <label for="modal-toggle" class="botao-secundario">Cancelar</label>
+                        <label for="modal-toggle" class="botao-primario"> Confirmar</label>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs><linearGradient id="c" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bbdefb"/><stop offset="1" stop-color="#e3f2fd"/></linearGradient></defs>
+  <rect width="1200" height="800" fill="url(#c)"/>
+  <circle cx="1020" cy="140" r="70" fill="#ffd54f"/>
+  <rect y="560" width="1200" height="240" fill="#81c784"/>
+  <path d="M0 560 Q300 500 600 560 T1200 540 L1200 600 L0 600 Z" fill="#66bb6a"/>
+  <!-- árvore -->
+  <rect x="120" y="360" width="26" height="220" fill="#6d4c41"/>
+  <circle cx="133" cy="340" r="95" fill="#388e3c"/>
+  <!-- manta -->
+  <ellipse cx="600" cy="680" rx="380" ry="70" fill="#ef9a9a"/>
+  <ellipse cx="600" cy="676" rx="340" ry="55" fill="#ffcdd2"/>
+  <!-- livros -->
+  <rect x="560" y="640" width="70" height="14" fill="#1565c0"/>
+  <rect x="566" y="626" width="60" height="14" fill="#f9a825"/>
+  <!-- voluntária (esq) -->
+  <circle cx="420" cy="430" r="42" fill="#8d5524"/>
+  <path d="M385 420 Q420 380 455 420 Q440 400 420 398 Q400 400 385 420Z" fill="#3e2723"/>
+  <rect x="380" y="474" width="80" height="130" rx="30" fill="#43a047"/>
+  <!-- criança 1 -->
+  <circle cx="540" cy="520" r="32" fill="#f1c27d"/>
+  <rect x="512" y="554" width="56" height="90" rx="22" fill="#ff7043"/>
+  <!-- criança 2 -->
+  <circle cx="680" cy="520" r="32" fill="#c68642"/>
+  <rect x="652" y="554" width="56" height="90" rx="22" fill="#42a5f5"/>
+  <!-- voluntário (dir) -->
+  <circle cx="800" cy="430" r="42" fill="#f1c27d"/>
+  <path d="M762 424 Q800 372 838 424 Q820 396 800 396 Q780 396 762 424Z" fill="#212121"/>
+  <rect x="760" y="474" width="80" height="130" rx="30" fill="#43a047"/>
+  <!-- livro aberto nas mãos -->
+  <path d="M590 600 L630 590 L630 625 L590 635Z" fill="#fff"/>
+  <path d="M630 590 L670 600 L670 635 L630 625Z" fill="#eeeeee"/>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#fff8e1"/>
+  <rect y="600" width="1200" height="200" fill="#d7ccc8"/>
+  <!-- lousa -->
+  <rect x="150" y="80" width="900" height="300" rx="14" fill="#2e7d32" stroke="#6d4c41" stroke-width="14"/>
+  <text x="200" y="180" font-family="Arial, sans-serif" font-size="56" fill="#fff">2 + 3 = 5</text>
+  <text x="200" y="260" font-family="Arial, sans-serif" font-size="56" fill="#fff">A B C D E</text>
+  <path d="M600 320 L900 320" stroke="#fff" stroke-width="5" stroke-dasharray="14 10"/>
+  <!-- mesa -->
+  <rect x="260" y="540" width="680" height="30" rx="8" fill="#8d6e63"/>
+  <rect x="300" y="570" width="22" height="130" fill="#6d4c41"/>
+  <rect x="880" y="570" width="22" height="130" fill="#6d4c41"/>
+  <!-- caderno -->
+  <rect x="490" y="500" width="150" height="40" rx="4" fill="#fff"/>
+  <path d="M505 515 H625 M505 528 H600" stroke="#90a4ae" stroke-width="3"/>
+  <!-- aluna -->
+  <circle cx="440" cy="400" r="42" fill="#c68642"/>
+  <path d="M398 396 Q440 340 482 396 Q460 366 440 366 Q420 366 398 396Z" fill="#3e2723"/>
+  <rect x="402" y="444" width="76" height="100" rx="28" fill="#ab47bc"/>
+  <!-- monitora -->
+  <circle cx="760" cy="380" r="42" fill="#f1c27d"/>
+  <path d="M718 372 Q760 320 802 372 Q780 344 760 344 Q740 344 718 372Z" fill="#6d4c41"/>
+  <rect x="722" y="424" width="76" height="120" rx="28" fill="#1e88e5"/>
+  <path d="M722 470 L650 520" stroke="#f1c27d" stroke-width="18" stroke-linecap="round"/>
+  <!-- lápis -->
+  <rect x="540" y="486" width="70" height="8" fill="#fbc02d" transform="rotate(-15 540 486)"/>
+</svg>
